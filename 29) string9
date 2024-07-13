@@ -1,0 +1,7 @@
+strr=input('enter a string')
+if 'ing' in strr:
+    print(strr+'ly')
+elif (len(strr)>3):
+    print(strr+'ing')
+else:
+    print(strr)
