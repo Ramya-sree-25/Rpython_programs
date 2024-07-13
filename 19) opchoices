@@ -1,0 +1,13 @@
+def opchoice(c,a,b):
+    if c==1:
+        print(a+b)
+    if c==2:
+        print(a-b)
+    if c==3:
+        print(a*b)
+    if c==4:
+        print(a/b)
+c=int(input('c:'))
+a=int(input('a:'))
+b=int(input('b:'))
+print(opchoice(c,a,b))
