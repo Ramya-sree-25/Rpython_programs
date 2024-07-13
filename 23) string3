@@ -1,0 +1,3 @@
+a='the best thing in the wprld is free'
+if 'free' in a:
+    print('yes')
