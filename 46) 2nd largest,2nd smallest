@@ -1,0 +1,7 @@
+def find(list1):
+    length=len(list1)
+    list1.sort()
+    print('second largest',list1[length-2])
+    print('second smallest',list1[1])
+list1=[12,45,16,19,24]
+print(find(list1))
