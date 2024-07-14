@@ -1,0 +1,9 @@
+def is_palin(s):
+    return s==s[::-1]
+s=input('enter a string')
+p=is_palin(s)
+if p:
+    print('yes')
+else:
+    print('no')
+    
