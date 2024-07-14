@@ -1,0 +1,11 @@
+s=input('enter a string')
+i=0
+print('charateven')
+while i<len(s):
+    print(s[i])
+    i=i+1
+i=1
+print('charatodd')
+while i<len(s):
+    print(s[i])
+    i=i+2
