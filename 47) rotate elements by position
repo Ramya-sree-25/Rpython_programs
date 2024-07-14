@@ -1,0 +1,10 @@
+def rotate(L,d,n):
+    lst=[]
+    lst=L[d: ]+L[0:d]
+    return lst
+L=[1,2,3,4,5]
+d=2
+n=len(L)
+l=rotate(L,d,n)
+for i in l:
+    print(i,end='')
