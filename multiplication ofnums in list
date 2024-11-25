@@ -1,0 +1,9 @@
+n=int(input())
+n1=list(map(int,input().split()))
+print(n1)
+result=1
+for i in n1:
+    result=result*i
+print(result)
+
+        
